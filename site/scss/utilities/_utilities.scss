@@ -1,0 +1,133 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.center {
+  text-align: center;
+}
+
+%visuallyhidden {
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
+}
+
+.visually-hidden {
+  @extend %visuallyhidden;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+div#multiColumn {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+.center-x {
+    display: block;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.center-xy {
+    margin: 0 auto;
+    display: table;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.visible-phone, 
+.visible-tablet, 
+.visible-desktop {
+    display: none !important;
+}
+
+.hidden-phone, 
+.hidden-tablet, 
+.hidden-desktop {
+    display: block !important;
+}
+
+.u-animate {
+    -moz-transition: all .6s; 
+    -webkit-transition: all .6s; 
+    transition: all .6s;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/* Phones */
+@media screen and (max-width: 34.5em) {
+    .visible-phone {
+        display: block !important;
+    }
+    .visible-desktop, 
+    .visible-tablet, 
+    .hidden-phone {
+        display: none !important;
+    }
+}
+
+/* Tablets */
+@media screen and (min-width: 34.5em) and (max-width: 64em) {
+    .visible-tablet {
+        display: block !important;
+    }
+    .visible-desktop, 
+    .visible-phone, 
+    .hidden-tablet {
+        display: none !important;
+    }
+}
+
+/* Desktops */
+@media screen and (min-width: 64em) {
+    .visible-desktop {
+        display: block !important;
+    }
+    .visible-phone,
+    .visible-tablet,
+    .hidden-desktop {
+        display: none !important;
+    }
+}

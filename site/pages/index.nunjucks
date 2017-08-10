@@ -1,0 +1,14 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %} 
+
+	{% include "partials/header.nunjucks" %}
+
+	{% include "partials/sidebar.nunjucks" %}
+
+	{% include "partials/content.nunjucks" %}
+
+	{% include "partials/footer.nunjucks" %}
+
+{% endblock %}

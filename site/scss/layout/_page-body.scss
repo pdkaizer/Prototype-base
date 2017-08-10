@@ -1,0 +1,9 @@
+body {
+	background-color: $white;
+}
+
+.img-responsive {
+	@include img-responsive;
+}
+
+

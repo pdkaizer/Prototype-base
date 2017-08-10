@@ -1,0 +1,39 @@
+/*--------------------------------------------------------------
+# Import libraries
+--------------------------------------------------------------*/
+
+@import 'lib/bourbon/bourbon';
+@import "lib/susy/susy";
+@import "lib/breakpoint/breakpoint";
+
+/*--------------------------------------------------------------
+# Base styles
+--------------------------------------------------------------*/
+
+@import 'lib/normalize';
+@import "base/base";
+@import "layout/grid-settings";
+
+/*--------------------------------------------------------------
+# Utilities
+--------------------------------------------------------------*/
+
+@import "utilities/utilities";
+@import "utilities/mixins";
+
+/*--------------------------------------------------------------
+# Layout styles
+--------------------------------------------------------------*/
+
+@import "layout/header";
+@import "layout/footer";
+@import "components/navigation";
+@import "components/slick";
+@import "components/slick-theme";
+@import "layout/page-body";
+
+/*--------------------------------------------------------------
+# Page specific styles
+--------------------------------------------------------------*/
+
+@import "pages/home";
