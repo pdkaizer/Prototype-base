@@ -1,10 +1,18 @@
 # Base code for prototyping
 
-This is a code based prototyping framework. It uses the following:
+This is a code based prototyping framework.
 
-Templating: Nunjucks
+## Dependencies
 
-SASS Libraries: Susy, Breakpoint-SASS, Bourbon, Bitters
+* Node
+* NPM
+* Gulp
+* SASS
+* Nunjucks
+* Susy
+* Breakpoint-SASS
+* Bourbon
+* Bitters
 
 ## To use:
 Run an NPM install command
