@@ -14,8 +14,10 @@ This is a code based prototyping framework.
 * Bourbon
 * Bitters
 
-## To use:
-Run an NPM install command
+## To use
+
+* Be sure that the latest version of Node and NPM are installed
+* Install Gulp `npm install gulp-cli -g`
 
 Edit files
 
