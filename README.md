@@ -16,9 +16,11 @@ This is a code based prototyping framework.
 
 ## To use
 
-* Be sure that the latest version of Node and NPM are installed
+* Be sure that the latest version of Node and NPM are installed (If you are on a Mac I rssoment using Homebrew to install Node & NPM)
 * Install Gulp `npm install gulp-cli -g`
-
-Edit files
-
-Run a Gulp command to view in Browser
+* Clone or download this Repo
+* Navigate to the Repo directory on your system
+* Run `npm install` to install dependencies
+* Run `npm install --save-dev gulp` to install Gulp into your project
+* Edit files
+* Run a `gulp` command to view in Browser
